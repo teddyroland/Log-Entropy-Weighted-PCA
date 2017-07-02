@@ -1,2 +1,4 @@
 # Log-Entropy-Weighted-PCA
-This repo supports the blog post "A Naive Empirical Post about DTM Weighting"
+Matrix normalization and weighting is something that distant readers do all the time. The question I want to raise is whether we can use different weightings strategically, in order to capture valuable features of a textual corpus? The information retrieval technique Latent Semantic Analyisis (LSA) has an extensive literature devoted to alternate weight schemes and their impacts on different tasks. How might we use a semantic model like LSA in existing distant reading practices? The similarity of LSA to a common technique (i.e. PCA) for pattern finding and featurization in distant reading suggests that we can profitably apply its weight schemes to work that we are already doing.
+
+This repository contains a Jupyter Notebook with code and output that supports the blog post ["A Naive Empirical Post about DTM Weighting"](https://www.teddyroland.com/)
